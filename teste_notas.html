@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/reset.css">
+    <link rel="stylesheet" href="CSS/css_pagina_notas.css">
+    <script src="java_pagina_notas.js" defer></script>
+    <title>Tela de Notas</title>
+</head>
+
+<body>
+    <div class="login-container">
+        <h2>Insira suas notas</h2>
+        <form id="notasForm">
+            <label for="nota1" class="hidden-label">Nota 1</label>
+            <input class="apple-input" id="nota1" type="number" placeholder="Prova Inter"  min="0" max="10">
+
+            <label for="nota2" class="hidden-label">Nota 2</label>
+            <input class="apple-input" id="nota2" type="number" placeholder="Prova final"  min="0" max="10">
+
+            <label for="nota3" class="hidden-label">Nota 3</label>
+            <input class="apple-input" id="nota3" type="number" placeholder="Quiz 01"  min="0" max="10">
+
+            <label for="nota4" class="hidden-label">Nota 4</label>
+            <input class="apple-input" id="nota4" type="number" placeholder="Quiz 02"  min="0" max="10">
+
+            <label for="nota5" class="hidden-label">Nota 5</label>
+            <input class="apple-input" id="nota5" type="number" placeholder="Quiz 03"  min="0" max="10">
+
+            <button id="saveBtn" class="apple-button">Salvar</button>
+            <button href="Inicio.html" id="backToLogin" class="apple-button">Sair</button>
+        </form>
+    </div>
+</body>
+
+</html>

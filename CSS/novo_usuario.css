@@ -1,0 +1,116 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #F1F3F5;
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+
+.login-container {
+    background-color: #00E88F;
+    padding: 68px 50px;
+    border-radius: 15px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    width: 80%;
+    max-width: 400px;
+    max-height: 1000px;
+    box-sizing: content-box;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    position: relative;
+    overflow: hidden;
+}
+
+h2, h3 {
+    text-align: left;
+    margin-top: 0rem;
+    margin-bottom: 2rem;
+    width: 100%;
+    font-size: 26px;
+    flex-grow: 1;
+}
+
+h2 {
+    color: #2C2C2C;
+    font-weight: bold;
+}
+
+h3 {
+    color: #FFFFFF;
+    font-weight: bold;
+}
+
+input[type="text"], input[type="password"] {
+    padding: 10px 15px;
+    margin-bottom: 10px;
+    width: calc(100% - 30px);
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 14px;
+    outline: none;
+    flex-grow: 1;
+}
+
+input[type="text"]:focus, input[type="password"]:focus {
+    border-color: #007AFF;
+}
+
+.buttons-container {
+    display: flex;
+    width: 100%;
+    justify-content: flex-start;
+}
+
+button {
+    font-weight: bold;
+    padding: 10px;
+    background-color: #FFFFFF;
+    color: #000000;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 10px;
+    margin-right: 15px;
+    box-sizing: border-box;
+    width: 44.5%;
+}
+
+button.secondary {
+    background-color: transparent;
+    color: #007AFF;
+    border: 1px solid #007AFF;
+}
+
+button:hover {
+    background-color: #00FF85;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.15);
+    transform: translateY(-3px);
+}
+
+@media only screen and (max-width: 320px) {
+    .login-container {
+        padding: 20px;
+    }
+}
+
+.top-right-icon {
+    position: absolute;
+    top: -5px;
+    right: -29px;
+    width: 200px;
+    height: auto;
+}
+
+.top-right-icon {
+    position: absolute;
+    top: -5px;  /* Ajuste conforme necessário */
+    right: -29px;  /* Ajuste conforme necessário */
+    width: 200px;  /* Largura da imagem. Ajuste conforme necessário */
+    height: auto; /* Mantém a proporção da imagem */
+}
